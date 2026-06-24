@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="32" height="32" rx="0"/>
+    </clipPath>
+  </defs>
+  
+  <text x="16" y="16" 
+        font-family="Helvetica, sans-serif" 
+        font-size="17" 
+        fill="#000000" 
+        text-anchor="middle" 
+        dominant-baseline="central"
+        clip-path="url(#clip)">GL</text>
+</svg>
