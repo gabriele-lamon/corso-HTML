@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio 13</title>
+  </head>
+  <body>
+    <form action="/registra-utente.html" method="post">
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+      </div>
+      <div>
+        <label for="surname">Cognome:</label>
+        <input type="text" id="surname" name="surname" required />
+        <br />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+      </div>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+      </div>
+      <div>
+        <label for="sex">Sesso:</label>
+        <input type="radio" id="male" name="sex" value="male" required />
+        <label for="male">Maschio</label>
+        <input type="radio" id="female" name="sex" value="female" required />
+        <label for="female">Femmina</label>
+        <br />
+      </div>
+      <div>
+        <label for="cell">Cellulare:</label>
+        <input type="tel" id="cell" name="cell" required />
+        <br />
+      </div>
+      <div>
+        <label for="birthdate">Data di nascita:</label>
+        <input type="date" id="birthdate" name="birthdate" required />
+        <br />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+      </div>
+      <div>
+        <label for="confirm_password">Conferma Password:</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        />
+        <br />
+      </div>
+      <div>
+        <label for="address-st">Via:</label>
+        <input type="text" id="address-st" name="address-st" required />
+        <br />
+        <label for="address-city">Città:</label>
+        <input type="text" id="address-city" name="address-city" required />
+        <br />
+        <label for="address-zip">CAP:</label>
+        <input type="text" id="address-zip" name="address-zip" required />
+        <br />
+        <label for="address-prv">Provincia:</label>
+        <select id="address-prv" name="address-prv" required>
+          <option value="">Seleziona...</option>
+          <option value="RM">Roma</option>
+          <option value="MI">Milano</option>
+          <option value="NA">Napoli</option>
+          <option value="TO">Torino</option>
+          <option value="FI">Firenze</option>
+        </select>
+        <br />
+      </div>
+      <div>
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required />
+          Accetto i termini e le condizioni
+        </label>
+        <br />
+      </div>
+      <button type="submit">Invia</button>
+    </form>
+  </body>
+</html>
