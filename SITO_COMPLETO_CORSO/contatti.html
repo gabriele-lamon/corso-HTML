@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti | Sito di prova</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/SITO_COMPLETO_CORSO">Home</a></li>
+          <li><a href="/SITO_COMPLETO_CORSO/about.html">About</a></li>
+          <li><a href="/SITO_COMPLETO_CORSO/blog.html">Blog</a></li>
+          <li><a href="/SITO_COMPLETO_CORSO/contatti.html">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contatti e FAQ</h1>
+        <p>Compila questo modulo per eventuali informazioni aggiuntive.</p>
+      </section>
+      <section>
+        <form action="#" method="post">
+          <div>
+            <label id="label-nome" for="nome" aria-label="Nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required /><br /><br />
+          </div>
+
+          <div>
+            <label id="label-cognome" for="cognome" aria-label="Cognome"
+              >Cognome:</label
+            >
+            <input
+              type="text"
+              id="cognome"
+              name="cognome"
+              required
+            /><br /><br />
+          </div>
+
+          <div>
+            <label id="label-email" for="email" aria-label="Email"
+              >Email:</label
+            >
+            <input type="email" id="email" name="email" required /><br /><br />
+          </div>
+
+          <div>
+            <label id="label-messaggio" for="messaggio" aria-label="Messaggio"
+              >Messaggio:</label
+            ><br />
+            <textarea
+              id="messaggio"
+              name="messaggio"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+          </div>
+
+          <div>
+            <label id="label-privacy" for="privacy" aria-label="Privacy"
+              >Accetto la privacy policy:</label
+            >
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              required
+            /><br /><br />
+          </div>
+
+          <button type="submit" value="Invia">Invia messaggio</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>copyright &copy; 2026 Sito di prova. Tutti i diritti riservati.</p>
+    </footer>
+  </body>
+</html>
