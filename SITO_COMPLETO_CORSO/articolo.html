@@ -1,10 +1,44 @@
 <!doctype html>
 <html lang="it">
   <head>
+    <!-- Base -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="canonical" href="https://www.example.com/articolo" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="icon"
+      type="image/avif"
+      href="/SITO_COMPLETO_CORSO/assets/images/favicon-32x32.avif"
+    />
+
+    <!-- Article -->
     <title>Articolo | Sito di prova</title>
+    <meta name="author" content="Nome Autore" />
+    <meta name="description" content="Descrizione del sito di prova" />
+    <meta
+      name="keywords"
+      content="parola chiave 1, parola chiave 2, parola chiave 3"
+    />
+
+    <!-- Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Articolo | Sito di prova" />
+    <meta property="og:description" content="DESCRIPTION OF THE POST OR PAGE" />
+    <meta property="og:image" content="URL OF THE IMAGE" />
+    <meta property="og:url" content="https://www.example.com/articolo" />
+    <meta property="og:site_name" content="NAME OF THE WEBSITE" />
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Articolo | Sito di prova" />
+    <meta
+      name="twitter:description"
+      content="DESCRIPTION OF THE POST OR PAGE"
+    />
+    <meta name="twitter:image" content="URL OF THE IMAGE" />
+    <meta name="twitter:site" content="@USERNAME" />
+    <meta name="twitter:creator" content="@USERNAME" />
   </head>
   <body>
     <header>
@@ -37,22 +71,46 @@
           <li><a rel="tag" href="#">Tag 3</a></li>
         </ul>
 
-        <a href="mailto:nome@cognome.com?subject=Oggetto%20della%20email"
-          >email con oggetto</a
-        >
-        <a
-          rel="nofollow noreferrer noopener"
-          target="_blank"
-          href="https://google.com"
-          >Google</a
-        >
+        <div>
+          <a href="mailto:nome@cognome.com?subject=Oggetto%20della%20email"
+            >email con oggetto</a
+          >
+        </div>
+
+        <div>
+          <a
+            rel="nofollow noreferrer noopener"
+            target="_blank"
+            href="https://google.com"
+            >Google</a
+          >
+        </div>
+
         <a rel="tag noopener" href="https://google.com" target="_blank">tag</a>
-        <img
-          aria-hidden="true"
-          src=""
-          alt="Immagine di esempio per il blog."
-          width="300"
-        />
+
+        <figure>
+          <picture>
+            <source
+              srcset="
+                /SITO_COMPLETO_CORSO/assets/images/luise-and-nic-qhXmZbZSDnE-unsplash.webp
+              "
+            />
+            <img
+              src="/SITO_COMPLETO_CORSO/assets/images/luise-and-nic-qhXmZbZSDnE-unsplash.jpg"
+              alt="scogliera da vicino"
+              title="scogliera"
+              width="400"
+            />
+          </picture>
+          <figcaption>
+            <a
+              rel="nofollow noreferrer noopener"
+              target="_blank"
+              href="https://unsplash.com/photos/qhXmZbZSDnE"
+              >Crediti al fotografo</a>
+          </figcaption>
+        </figure>
+
         <h1>Titolo articolo</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
@@ -91,12 +149,37 @@
           <dt>Sottotitolo 3.1</dt>
           <dd>Esempio 3.1</dd>
         </dl>
+
+        <figure>
+          <picture>
+            <source
+              srcset="
+                /SITO_COMPLETO_CORSO/assets/images/edit-primeval-fO991is0oHM-unsplash.webp
+              "
+            />
+            <img
+              src="/SITO_COMPLETO_CORSO/assets/images/edit-primeval-fO991is0oHM-unsplash.jpg"
+              alt="cerbiatto nella foresta"
+              title="primeval"
+              width="400"
+            />
+          </picture>
+          <figcaption>
+            <a
+              rel="nofollow noreferrer noopener"
+              target="_blank"
+              href="https://unsplash.com/photos/fO991is0oHM"
+              >Crediti al fotografo</a>
+          </figcaption>
+        </figure>
+
         <img
           src="/images/android-chrome-192x192.png"
           alt="logo GL 192"
           width="192"
           height="192"
         />
+
         <ul>
           <li>Sottotitolo 1</li>
           <li><a href="#paragrafo-1.1">Sottotitolo 1.1</a></li>
